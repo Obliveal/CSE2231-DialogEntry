@@ -66,16 +66,4 @@ public final class DialogParserUtility {
 
         return stack.pop();
     }
-
-    /*
-    public static void main(String[] args) {
-        DialogEntry entry = DialogParserUtility.parseDialogFromFile("./test/dialog.txt");
-
-        SimpleReader1L in = new SimpleReader1L();
-        SimpleWriter1L out = new SimpleWriter1L();
-        DialogEngine engine = new DialogEngine(in, out);
-
-        engine.runEngine(entry, "You");
-    }
-    */
 }
